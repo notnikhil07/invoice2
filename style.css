@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(19, 19, 19);
+    height: 100vh;
+    width: 100%;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    height: 594px;
+    width: 420px;
+    padding: 10px;
+
+  
+}
+
+.main_title h1{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.main_title{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.logo_qr{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo_add{
+    display: flex;
+}
+
+.logo_add img{
+    height: 60px;
+}
+
+.qr_code img{
+    height: 60px;
+}
+
+.bill_details{
+    font-size: 8px;
+}
+
+.mobile_mail{
+    gap: 3px;
+    font-size: 8px;
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.gst_web{
+    gap: 3px;
+    font-size: 8px;
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+}
+
+
+.partition{
+    margin-top: 10px;
+    background-color: blue;
+    height: 0.1px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.four_boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bill_to{
+    padding: 5px;
+    height: 100px;
+    width: 50%;
+    border: 1px solid black;
+    font-size: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.bill_to i{
+    color: blue;
+}
+
+.invoice_details{
+    padding: 5px;
+    height: 100px;
+    width: 50%;
+    border: 1px solid black;
+    font-size: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.invoice_details i{
+    color: blue;
+}
+
+table {
+    text-align: left;
+    font-size: 8px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.tab_hi td{
+    height: 20px;
+}
+
+.term_sign td{
+    text-align: left;
+    height: 80px;
+}
+
+.term_sign i{
+    
+    color: blue;
+}
+
+.term_sign img{
+    height: 40px;
+}
+
+.sign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer{
+    text-align: center;
+}
+
